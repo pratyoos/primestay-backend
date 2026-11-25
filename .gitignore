@@ -1,0 +1,81 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Go binaries and build artifacts
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+*.o
+
+# Go workspace
+go.work
+go.work.sum
+
+# Test and coverage files
+coverage.out
+coverage.html
+*.coverprofile
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+
+# IDE and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Docker local overrides
+docker-compose.override.yml
+
+# Database files and local data
+*.db
+*.sqlite
+*.sqlite3
+postgres-data/
+redis-data/
+kafka-data/
+
+# Generated documentation and API artifacts
+swagger-ui/
+openapi.generated.yaml
+
+# Dependency and tool caches
+vendor/
+
+# Profiling outputs
+*.prof
+*.pprof
+
+# Local development files
+*.local
+*.pid
